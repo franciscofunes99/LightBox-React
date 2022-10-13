@@ -1,7 +1,8 @@
 export const Contacto = () => {
   return (
     <>
-     <h1>Nosotros</h1>
+      <h1>Contactenos</h1>
+      <img className= "contactoimg" src="https://lightbox-ar.netlify.app/img/nosotros/contacto.png" alt="contactanos" />
     </>
   )
 }

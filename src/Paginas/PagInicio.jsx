@@ -1,12 +1,11 @@
 
-export const Inicio= () => {  
+export const Inicio = () => {
   return (
     <>
-    <div className="home">
-      <img className="imageHome" 
-        src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://www.pinkpaws.co.in/wp-content/uploads/2020/07/banner2-Pet-food.jpg" 
-        alt="Pet-food"/>     
-    </div>     
+      <div className="Home">
+        <h1>Inicio</h1>
+        <img className="imageHome" src="https://lightbox-ar.netlify.app/img/nosotros/nos.png" alt="LightBox-inicio" />
+      </div>
     </>
   )
 }

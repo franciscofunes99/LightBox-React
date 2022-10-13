@@ -1,6 +1,10 @@
-
-
 .imageHome{
-  width: 100%;
-  height: 80vh;
+    max-width: 100%;
+}
+.app{
+    background-color: black;
+}
+
+.contactoimg{
+    max-width: 100%;
 }

@@ -1,24 +1,24 @@
-.image{
-   width: 50px;   
+.img{
+   max-width: 25%;
 }
 .actives{
-   color: rgb(253, 117, 117) !important;
+   color: yellow;
    
 }
 .activesDropdown{
-   background-color: rgb(233, 230, 230);
+   background-color: rgb(73, 71, 71);
    
 }
 .activesDropdown2:hover{
-   background-color: rgb(206, 206, 206);
+   background-color: rgb(141, 127, 49);
    
 }
 .claseActiva {
-   color: red;
+   color: rgb(71, 73, 55);
    margin: 30px;
  }
  
  .claseInactiva {
-   color: #282c34;
-   margin: 30px;
+   color: #17191d;
+   margin: 25px;
  }

@@ -1,4 +1,4 @@
-import { Routes, Route , Navigate } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import { NavBar } from "./components/NavBar/NavBar.jsx";
 import { Contacto } from "./Paginas/Contacto.jsx";
 import { ProductosDisp } from "./Paginas/ProductosDispo.jsx";
@@ -15,16 +15,16 @@ export function App() {
   return (
     <>
       <div className="App">
-        <div className="container mt-2">
+        <div className="container">
           <NavBar />
           <hr></hr>
-          <Routes>            
+          <Routes>
             <Route path="/" element={<Inicio />} />
-            <Route path="productos" element={<ProductosDisp />} />            
-            <Route path="nosotros" element={<Contacto />} />
-            <Route path="categoria/:categoria" element={<CategoriasPro/>}/>
-            <Route path="detalle/:id" element={<InformacionPro/>}/>
-            <Route path="/*" element={<Navigate to="products" />} />            
+            <Route path="productos" element={<ProductosDisp />} />
+            <Route path="contacto" element={<Contacto />} />
+            <Route path="categoria/:categoria" element={<CategoriasPro />} />
+            <Route path="detalle/:id" element={<InformacionPro />} />
+            <Route path="/*" element={<Navigate to="products" />} />
           </Routes>
         </div>
       </div>

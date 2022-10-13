@@ -1,6 +1,6 @@
 import { DetailsProducts } from "../components/DetailsProducts/DetailsProducts"
 
-export const InformacionPro= () => {
+export const InformacionPro = () => {
 
   return (
     <>

@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom"
 import { veladores } from "../../ProductosVeladores/Productos"
-import { Count } from '../Count/Count'
+import { Count } from "../Count/Count"
 
 export const DetailsProducts = () => {
     const {id} = useParams()
