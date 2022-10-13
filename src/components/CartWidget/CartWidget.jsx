@@ -1,13 +1,18 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { CartModal } from "./cartModal"
 
-const CartWidget = ()=>{
+export const CartWidget = () => {
     return (
-        <div>
-            <FontAwesomeIcon icon={faCartShopping}/>
-            <span>4</span>
-        </div>
+        <>
+            <button
+                className="btn btn-warning"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#carrito"
+            >
+                <i className="bi bi-cart3 fs-4"></i>
+                <span className="ms-2 h4">0</span>
+            </button>
+          <CartModal/>   
+        </>
     )
 }
-
-export default CartWidget
